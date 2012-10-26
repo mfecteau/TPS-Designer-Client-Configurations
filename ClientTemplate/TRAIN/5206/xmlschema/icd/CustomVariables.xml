@@ -1,0 +1,18 @@
+<ElementTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tabLabel="Custom Elements" elementType="CustomVars" xsi:noNamespaceSchemaLocation="../icd/echoosersect.xsd" file="CustomVariables.xml" systemName="CustomVars" toolTip="" tabColor="" hidden="false" cdiscIdentifier="" editorClass="PDG.Custom Elements" isConfigModeOnly="true">
+  <ElementBucket bucketLabel="StudyDesign" elementType="CustomVars" hidden="true" systemName="CustomVars" toolTip="" cdiscIdentifier="CUSTOM_PAGE_BRANCH">
+    <ChooserEntry elementPath="/FTICP/CustomVars/uno" elementLabel="Custom Element Placeholder One" ftElementType="Element" customvar="true" hidden="false" toolTip="Custom Element Placeholder" cdiscIdentifier="" dataType="String" stickyCase="false" default="false">
+      <ElementStatus mfu="false" docType="Protocol" default="false" required="false" />
+    </ChooserEntry>
+    <ChooserEntry elementPath="/FTICP/CustomVars/due" elementLabel="Custom Element Placeholder Two" ftElementType="Element" customvar="true" hidden="false" toolTip="Custom Element Placeholder " cdiscIdentifier="" dataType="Date" stickyCase="false" default="false">
+      <ElementStatus mfu="false" docType="Protocol" default="false" required="false" />
+    </ChooserEntry>
+    <ChooserEntry elementLabel="NewCustomElement1323273868468" elementPath="/FTICP/CustomVars/NewCustomElement1323273868468" ftElementType="Element" customvar="true" toolTip="" cdiscIdentifier="" dataType="String" hidden="false" stickyCase="false" default="false">
+      <ElementStatus docType="Protocol" required="false" default="false" mfu="false" />
+    </ChooserEntry>
+  </ElementBucket>
+  <ElementBucket bucketLabel="Background" elementType="CustomVars" hidden="true" toolTip="" cdiscIdentifier="CUSTOM_HEADER">
+    <ChooserEntry elementLabel="Drug Details" elementPath="/FTICP/CustomVars/CustomElementPlaceholderThree1229958300370" ftElementType="Element" customvar="true" toolTip="" cdiscIdentifier="" multiLine="true" dataType="String" hidden="false" stickyCase="false" default="false">
+      <ElementStatus docType="Protocol" required="false" default="false" mfu="false" />
+    </ChooserEntry>
+  </ElementBucket>
+</ElementTab>

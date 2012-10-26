@@ -1,0 +1,32 @@
+<ElementTab tabLabel="Document Elements" elementType="TOC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\icd\echoosersect.xsd" systemName="TOC" file="../../doctypes/DocumentElements.xml">
+  <ElementBucket docType="Protocol" elementType="TOC" startType="false" bucketLabel="Protocol">
+    <ChooserEntry elementLabel="Introduction" elementPath="Introduction1" ftElementType="DocSection" sectionLevel="1" docHeaderStyle="Heading 1" required="false" toolTip="$library/__guide.Introduction_5206" stageBasedLockGroup="StdyPurp" deepLock="true" />
+    <ChooserEntry elementLabel="Objectives" elementPath="Objectives" ftElementType="DocSection" sectionLevel="1" docHeaderStyle="Heading 1" required="false" smeBasedLockGroup="Analysis" deepLock="true">
+      <Complex>
+        <ChooserEntry elementLabel="Primary Objectives" elementPath="PrimObj" ftElementType="DocSection" sectionLevel="2" docHeaderStyle="Heading 2" required="false" smeBasedLockGroup="Analysis" deepLock="true" />
+        <ChooserEntry elementLabel="Secondary Objectives" elementPath="SecObj" ftElementType="DocSection" sectionLevel="2" docHeaderStyle="Heading 2" required="false" smeBasedLockGroup="Analysis" deepLock="true" />
+      </Complex>
+    </ChooserEntry>
+    <ChooserEntry elementLabel="Investigational Design" elementPath="InvDesign" ftElementType="DocSection" sectionLevel="1" docHeaderStyle="Heading 1" required="false">
+      <Complex>
+        <ChooserEntry elementLabel="Summary of Design" elementPath="SummDes" ftElementType="DocSection" sectionLevel="2" docHeaderStyle="Heading 2" required="false" />
+      </Complex>
+    </ChooserEntry>
+    <ChooserEntry elementLabel="Study Schedule" elementPath="StudySched" ftElementType="DocSection" sectionLevel="1" docHeaderStyle="Heading 1" required="false">
+      <Complex>
+        <ChooserEntry elementLabel="Study Narrative" elementPath="StdyNarr" ftElementType="DocSection" sectionLevel="2" docHeaderStyle="Heading 2" required="false" />
+        <ChooserEntry elementLabel="Discussion of Design and Control" elementPath="DesDiss" ftElementType="DocSection" sectionLevel="2" docHeaderStyle="Heading 2" required="false" />
+        <ChooserEntry elementLabel="Investigator Information" elementPath="InvInfo" ftElementType="DocSection" sectionLevel="2" docHeaderStyle="Heading 2" required="false">
+          <Complex>
+            <ChooserEntry elementLabel="Final Report Signature" elementPath="RptSig" ftElementType="DocSection" sectionLevel="3" docHeaderStyle="Heading 3" required="false" />
+          </Complex>
+        </ChooserEntry>
+      </Complex>
+    </ChooserEntry>
+    <ElementBucket docType="Protocol" elementType="TOC" startType="false" bucketLabel="Protocol" />
+  </ElementBucket>
+  <ElementBucket docType="Objectives1" elementType="TOC" startType="false" bucketLabel="Objectives" />
+  <ElementBucket docType="InvDesign1" elementType="TOC" startType="false" bucketLabel="Investigational Design" />
+  <ElementBucket docType="StudySched1" elementType="TOC" startType="false" bucketLabel="Study Schedule" />
+  <ElementBucket docType="NewDocTypeElement" elementType="TOC" startType="false" bucketLabel="NewDocTypeElement" />
+</ElementTab>

@@ -1,0 +1,12 @@
+<DocTypes>
+  <Category systemName="Design" userName="Design" amendmentType="false" />
+  <Category systemName="Protocol" userName="Protocol" amendmentType="false">
+    <DocTypeEntry systemName="Protocol" userName="Protocol" fileName="protocol.doc" description="" />
+    <DocTypeEntry systemName="Objectives1" userName="Objectives" fileName="objectives1.doc" description="" />
+    <DocTypeEntry systemName="InvDesign1" userName="Investigational Design" fileName="invdesign1.doc" description="" />
+    <DocTypeEntry systemName="StudySched1" userName="Study Schedule" fileName="studysched1.doc" description="" />
+  </Category>
+  <Category systemName="InvestDesign1" userName="Investigational Design" amendmentType="false">
+    <DocTypeEntry systemName="NewDocTypeElement" userName="NewDocTypeElement" fileName="newdoctypeelement.doc" description="" />
+  </Category>
+</DocTypes>

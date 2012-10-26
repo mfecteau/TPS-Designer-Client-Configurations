@@ -1,0 +1,8 @@
+<DocTypes>
+  <Category systemName="Design" userName="Design" amendmentType="false">
+    <DocTypeEntry systemName="Design" userName="Design" description="false" fileName="design.doc" />
+  </Category>
+  <Category systemName="StudyOutline" userName="Study Outline" amendmentType="false">
+    <DocTypeEntry systemName="StudyOutline" userName="Study Outline" fileName="studyoutline.doc" description="" />
+  </Category>
+</DocTypes>
